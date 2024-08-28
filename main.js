@@ -11,5 +11,5 @@ buttonAbout.addEventListener('click', () => {
 })
 
 buttonProduct.addEventListener('click', () => {
-    alert("No alejes tu vista  !que te pierdes su brillo¡")
+    alert("No alejes tu vista  ¡que te pierdes su brillo!")
 })

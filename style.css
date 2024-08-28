@@ -151,9 +151,19 @@ section {
   font-size: 3rem;
 }
 .product div {
-  width: 600px;
-  height: 800px;
+  width: 1000px;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
-.product_img {
-  width: 900px;
+
+.product_text {
+  width: 100%;
+}
+.button_product {
+  width: 200px;
+  height: 80px;
+  border: solid 1px #fff;
 }
