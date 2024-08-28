@@ -1,13 +1,13 @@
 :root {
   --color-primary: #fff;
   --color-secondary: #000;
-  --color-tertiary: #212121;
+  --color-tertiary: #282828;
   --color-border-button: #3d3c3c;
 }
 /*base de diseño movil*/
 .header {
   width: 100%;
-  background-color: #282828;
+  background-color: var(--color-tertiary);
   padding: 1em;
 
   display: flex;
@@ -166,4 +166,39 @@ section {
   width: 200px;
   height: 80px;
   border: solid 1px #fff;
+}
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  color: var(--color-primary);
+  background-color: var(--color-tertiary);
+}
+.footer_img {
+  width: 300px;
+  height: 300px;
+}
+.footer_copy {
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+}
+
+.footer_nav,
+.footer_social {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+}
+.footer_nav li {
+  list-style: circle;
+  padding-right: 20px;
+}
+.footer_social span {
+  width: 100%;
+}
+.footer_social{
+  gap: 10px;
 }
